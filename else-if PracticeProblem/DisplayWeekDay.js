@@ -3,8 +3,10 @@
 //For promting message and taking input from console.
 const prompt = require("prompt-sync")({ sigint: true });
 
+//storing user input into variable.
 let userNumber = prompt("Enter number between 1 to 7 : ");
 
+//converting string into number type.
 let weekNumber = + userNumber;
 
 if(weekNumber == 1)
